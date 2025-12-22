@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    padding-left: 10px;
+}
+
+#title h1{
+    color:#63e688;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#contactform{
+    padding: 20px;
+    background-color: rgb(71, 71, 71);
+    color: silver;
+    border-radius: 12px;
+}
+
+#frm{
+    margin: 10px 0;
+}
+
+input{
+    margin: 10px;
+    height: 28px;
+    padding-left: 30px;
+    background-color: rgba(134, 133, 133, 0.616);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+td{
+    height:30px;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    left:15px;
+    top:13px;
+}
+
+.icons{
+    position: absolute;
+    left:15px;
+    top:10px;
+}
+
+textarea{
+    padding-left: 30px;
+    padding-top: 8px;
+    margin-left: 10px;
+    width: 95%;
+    height:80px;
+    border: 1px solid green;
+    background-color: rgba(134, 133, 133, 0.616);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+}
+
+textarea::placeholder{
+    color: white;
+}
+
+button{
+    width: 95%;
+    height: 100%;
+    margin-left: 10px;
+    background-color: #63e688;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#footer{
+    margin-top: 5px;
+    border-top: 1px solid silver;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#footer p{
+    padding: 5px 0;
+}
